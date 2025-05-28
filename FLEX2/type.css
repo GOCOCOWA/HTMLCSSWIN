@@ -1,0 +1,134 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.wrap{
+	display: flex;
+	width: 1024px;
+	margin: 0 auto;
+	
+}
+.left{
+	display: flex;
+	flex-direction: column;
+	width: 300px;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+h2{
+  background:#3F5D45;
+  color: white;
+  padding: 15px;
+  text-align:center;
+  font-size:24px;
+  font-weight:600;
+  border: 1px solid black;
+}
+.left a{
+	color:#3F5D45;
+	text-decoration: none;
+	border: 1px solid #3F5D45;
+	font-size: 24px;
+	display: flex;
+	justify-content: center;
+	padding: 15px;
+}
+.left a:hover{
+	background:#EAF0ED;
+}
+.right{
+	display: flex;
+	flex-wrap: wrap;
+}
+	
+
+.box1{
+	width: 300px;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+}
+
+.item{
+	display: flex;
+	justify-content: center;
+	
+}
+.a{
+	
+	font-size:20px;
+	color:#3F5D45;
+	text-align:center;
+	padding: 10px;
+	border:1px solid #EAF0ED;
+	width: 150px;
+}
+.price{
+	
+	font-size:20px;
+	color:#3F5D45;
+	text-align:center;
+	padding: 10px;
+	border:1px solid #EAF0ED;
+	width: 150px;
+}
+
+.box1 a{
+	display: flex;
+	text-decoration: none;
+	background-color: #EAF0ED;
+	color:#3F5D45;
+	font-size: 24px;
+	display: flex;
+	justify-content: center;
+	padding: 15px;
+}
+.box1 a:hover{
+	background:#3F5D45;
+	color:#ffffff;
+  }
